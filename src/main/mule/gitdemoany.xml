@@ -10,5 +10,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="gitdemoanyFlow" doc:id="b4a88969-6da4-46d3-9522-21e949b30b64" >
 		<http:listener doc:name="Listener" doc:id="bd5fcf38-8e16-4de7-a3a0-6cfffdaf74ce" config-ref="HTTP_Listener_config" path="/any"/>
 		<logger level="INFO" doc:name="Logger" doc:id="1838f940-8d58-4011-b3c3-a8145edb64fe" message="hi hello"/>
+		<logger level="INFO" doc:name="Logger" doc:id="6ede6756-dcb4-49a2-b5cf-36ecf5409222" message="logger-2"/>
+		<logger level="INFO" doc:name="Logger" doc:id="846cb9f8-5965-4aa4-aaca-1c814f26c38c" message="logger-3"/>
 	</flow>
 </mule>
